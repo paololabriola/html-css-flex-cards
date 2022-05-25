@@ -61,3 +61,6 @@ header{
 .box ul li{
     margin-top: 3%;
 }
+.box ul li a:hover{
+    text-decoration: underline;
+}
