@@ -17,25 +17,47 @@ h2{
 .text-center{
     text-align: center;
 }
+ul{
+    margin-right: 50px;
+    display: inline-block;
+    list-style: none;
+}
 /* LAYOUT */
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .flex-container{
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.profile-pic{
+    margin-left: 0;
+    height: 100%;
+    width: 25%;
+}
+.profession{
+    color: #fffffe;
+}
+.mail{
+    text-decoration: none;
+    color: #10bfe9;
 }
 /* HEADER */
 header{
+    height: 70px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 /* MAIN */
 .box{
+    box-shadow: 0px 0px 6px black;
     width: 32%;
-    height: 50px;
+    height: 90px;
     background-color: #0f0e17;
+}
+.box ul li{
+    margin-top: 3%;
 }
