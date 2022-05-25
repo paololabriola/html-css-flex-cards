@@ -1,0 +1,41 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMONS */
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+h1{
+    color: #e53170;
+}
+h2{
+    color: #fffffe;
+}
+.text-center{
+    text-align: center;
+}
+/* LAYOUT */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* MAIN */
+.box{
+    width: 32%;
+    height: 50px;
+    background-color: #0f0e17;
+}
